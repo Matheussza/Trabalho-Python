@@ -4,10 +4,14 @@ Trabalho Python av2
 Questão 1:
 
 B = float(input('Entre com o valor da Base Maior: '))
+
 b = float(input('Entre com o valor da Base Menor: '))
-h = float(input('Entre com o valor da altura: '))
+
+h = float(input('Entre com o valor altura: '))
 a = 2
+
 formula = ((B + b) * h) / a
+
 print('A Área do Trapézio é: ', formula)
 
 Questão 2:
@@ -15,6 +19,7 @@ Questão 2:
 def somaImposto(taxaImposto, Custo):
     return (1 + taxaImposto/100)*Custo
 t = float(input('Digite a taxa de imposto: '))
+
 c = float(input('Digite o custo: '))
 print('Valor com imposto:', somaImposto(t,c))
 
@@ -37,4 +42,5 @@ enquanto  controle  !=  0 :
 	minuto  =  input ( "Digite ou minuto: " )
 	print  "Convertido: %i:%i" % ( converter_hora ( hora ), minuto )
 	controle  =  input ( "Continuar? 1(sim)/0(nao): " )
+	
 print ( "Obrigado até mais" )
