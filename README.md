@@ -2,6 +2,7 @@
 Trabalho Python av2
 
 Questão 1:
+
 B = float(input('Entre com o valor da Base Maior: '))
 b = float(input('Entre com o valor da Base Menor: '))
 h = float(input('Entre com o valor da altura: '))
@@ -12,6 +13,7 @@ formula = ((B + b) * h) / a
 print('A Área do Trapézio é: ', formula)
 
 Questão 2:
+
 def somaImposto(taxaImposto, Custo):
     return (1 + taxaImposto/100)*Custo
 t = float(input('Digite a taxa de imposto: '))
@@ -19,6 +21,7 @@ c = float(input('Digite o custo: '))
 print('Valor com imposto:', somaImposto(t,c))
 
 Questão 3:
+
 def  converter_hora ( hora ):
 	se  hora  >  12  e  hora  !=  24 :
 		contador  =  0
